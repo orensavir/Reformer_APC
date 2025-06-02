@@ -5,8 +5,8 @@ plotly
 fpdf
 openpyxl
 streamlit-option-menu
-Kaledio
-
+kaleido
+from scipy.stats import zscore
 
 # import streamlit as st
 # import pandas as pd
@@ -17,4 +17,5 @@ Kaledio
 # import tempfile
 # from fpdf import FPDF
 # import os
-# import Kaledio
+# import kleido
+# from scipy.stats import zscore
