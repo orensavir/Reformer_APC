@@ -10,6 +10,7 @@ import plotly.graph_objects as go
 import tempfile
 from fpdf import FPDF
 import os
+import kaleido
 
 
 # ------------ MODEL DEFAULTS --------------
