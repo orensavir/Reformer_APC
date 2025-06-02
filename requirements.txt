@@ -5,6 +5,7 @@ plotly
 fpdf
 openpyxl
 streamlit-option-menu
+Kaledio
 
 
 # import streamlit as st
@@ -16,3 +17,4 @@ streamlit-option-menu
 # import tempfile
 # from fpdf import FPDF
 # import os
+# import Kaledio
