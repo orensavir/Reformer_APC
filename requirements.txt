@@ -1,21 +1,18 @@
-streamlit
-pandas
-numpy
-plotly
-fpdf
-openpyxl
-streamlit-option-menu
-kaleido
-from scipy.stats import zscore
+# Core app/runtime
+streamlit>=1.36
+pandas>=2.3
+numpy>=2.1
+scipy>=1.14
+scikit-learn>=1.6
 
-# import streamlit as st
-# import pandas as pd
-# import numpy as np
-# from datetime import datetime, date
-# from streamlit_option_menu import option_menu
-# import plotly.graph_objects as go
-# import tempfile
-# from fpdf import FPDF
-# import os
-# import kleido
-# from scipy.stats import zscore
+# Viz
+plotly>=5.22
+altair>=5.3
+
+# Excel I/O (if you export workbooks)
+openpyxl>=3.1
+XlsxWriter>=3.2
+
+# Utilities
+python-dateutil>=2.9
+requests>=2.32
